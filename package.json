@@ -2,22 +2,33 @@
   "name": "jquery-sortablejs",
   "version": "0.1.0",
   "description": "A jQuery  binding to SortableJS.",
-  "main": "jquery-sortable.js",
+  "main": "jquery.fn.sortable.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "grunt"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SortableJS/jquery-sortablejs.git"
   },
+  "files": [
+    "jquery.fn.sortable.js",
+    "jquery.fn.sortable.min.js"
+  ],
   "keywords": [
     "jquery",
     "sortable"
   ],
-  "author": "",
+  "author": "depuits",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SortableJS/jquery-sortablejs/issues"
   },
-  "homepage": "https://github.com/SortableJS/jquery-sortablejs#readme"
+  "homepage": "https://github.com/SortableJS/jquery-sortablejs#readme",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-version": "*",
+    "sortablejs": "*"
+  }
 }
