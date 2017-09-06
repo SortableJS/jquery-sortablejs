@@ -1,8 +1,8 @@
 {
   "name": "jquery-sortablejs",
-  "version": "0.1.0",
+  "version": "1.6.1",
   "description": "A jQuery  binding to SortableJS.",
-  "main": "jquery.fn.sortable.js",
+  "main": "jquery-sortable.js",
   "scripts": {
     "prepare": "grunt"
   },
@@ -11,8 +11,8 @@
     "url": "git+https://github.com/SortableJS/jquery-sortablejs.git"
   },
   "files": [
-    "jquery.fn.sortable.js",
-    "jquery.fn.sortable.min.js"
+    "jquery-sortable.js",
+    "jquery-sortable.min.js"
   ],
   "keywords": [
     "jquery",

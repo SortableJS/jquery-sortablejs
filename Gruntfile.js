@@ -33,7 +33,7 @@ module.exports = function (grunt) {
 		}
 
 		var fs = require('fs'),
-			filename = 'jquery.fn.' + exportName + '.js';
+			filename = 'jquery-' + exportName + '.js';
 
 		grunt.log.oklns(filename);
 
@@ -50,7 +50,7 @@ module.exports = function (grunt) {
 		if (uglify) {
 			var opts = {};
 
-			opts['jquery.fn.' + exportName + '.min.js'] = filename;
+			opts['jquery-' + exportName + '.min.js'] = filename;
 			grunt.config.set('uglify.jquery.files', opts);
 
 			grunt.task.run('uglify:jquery');
