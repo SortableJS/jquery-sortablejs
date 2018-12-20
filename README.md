@@ -17,7 +17,7 @@ import 'jquery-sortablejs';
 
 ### CDN:
 ```HTML
-<script src="CDN HERE"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-sortablejs@latest/jquery-sortable.js"></script>
 ```
 
 ## Usage
