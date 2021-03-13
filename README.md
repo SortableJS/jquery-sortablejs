@@ -2,6 +2,8 @@
 
 A jQuery binding for SortableJS
 
+Demo: https://jsbin.com/nopixes/edit?html,js,console,output (credit to [@laflier](https://github.com/laflier))
+
 ## Installation
 
 ### Webpack/Browserify
