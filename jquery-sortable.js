@@ -8,10 +8,10 @@
 	if (typeof define === "function" && define.amd) {
 		try {
 			define(["sortablejs", "jquery"], function(Sortable, $) {
-				sortable = Sortable;
+				sortable = Sortable.Sortable;
 				jq = $;
 				checkErrors();
-				factory(Sortable, $);
+				factory(Sortable.Sortable, $);
 			});
 		} catch(err) {
 			checkErrors();
